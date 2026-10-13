@@ -1,0 +1,42 @@
+report = """
+====================================
+EDUGENIE PROJECT DOCUMENTATION
+====================================
+
+1. PROJECT TITLE
+EduGenie - AI Powered Learning Companion
+
+2. INTRODUCTION
+EduGenie is an AI-powered learning application
+designed to help students learn effectively.
+
+3. OBJECTIVES
+- Answer academic questions.
+- Summarize study notes.
+- Generate quizzes.
+- Support student learning.
+
+4. TECHNOLOGIES USED
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- Google Gemini API
+
+5. ADVANTAGES
+- Easy to use.
+- Saves study time.
+- Supports self-learning.
+- Provides learning assistance.
+
+6. CONCLUSION
+EduGenie helps students improve their
+learning experience using AI technology.
+"""
+
+with open("EduGenie_Report.txt", "w", encoding="utf-8") as file:
+    file.write(report)
+
+print("Project documentation created successfully!")
+print("File Name: EduGenie_Report.txt")
