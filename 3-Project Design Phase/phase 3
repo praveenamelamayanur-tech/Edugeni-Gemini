@@ -1,0 +1,31 @@
+print("====================================")
+print("       PROJECT DESIGN")
+print("====================================")
+
+steps = [
+    "Student opens EduGenie",
+    "Student enters a question",
+    "Frontend sends the question",
+    "Python backend processes input",
+    "Gemini AI generates response",
+    "Answer is displayed to student"
+]
+
+print("\nSystem Workflow:\n")
+
+for i, step in enumerate(steps, start=1):
+    print(f"{i}. {step}")
+
+print("\nSystem Architecture:")
+print("Frontend")
+print("    |")
+print("    v")
+print("Python Flask Backend")
+print("    |")
+print("    v")
+print("Google Gemini AI")
+print("    |")
+print("    v")
+print("Response to Student")
+
+print("\nProject Design Completed!")
