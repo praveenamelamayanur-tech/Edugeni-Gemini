@@ -1,0 +1,43 @@
+def show_menu():
+    print("\n================================")
+    print("       EDUGENIE DEMO")
+    print("================================")
+
+    print("1. Ask Doubt")
+    print("2. Summarize Notes")
+    print("3. Generate Quiz")
+    print("4. Personalized Study Plan")
+    print("5. Exit")
+
+
+while True:
+    show_menu()
+
+    choice = input("\nEnter your choice: ")
+
+    if choice == "1":
+        question = input("Enter your doubt: ")
+        print("Your question:", question)
+        print("Demo: AI Doubt Solver selected.")
+
+    elif choice == "2":
+        notes = input("Enter your notes: ")
+        print("Notes received successfully.")
+        print("Demo: Notes Summarizer selected.")
+
+    elif choice == "3":
+        topic = input("Enter quiz topic: ")
+        print("Quiz topic:", topic)
+        print("Demo: Quiz Generator selected.")
+
+    elif choice == "4":
+        subject = input("Enter subject name: ")
+        print("Study subject:", subject)
+        print("Demo: Study Plan selected.")
+
+    elif choice == "5":
+        print("Thank you for using EduGenie!")
+        break
+
+    else:
+        print("Invalid choice. Please try again.")
