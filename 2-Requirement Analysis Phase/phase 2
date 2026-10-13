@@ -1,0 +1,37 @@
+print("====================================")
+print("     REQUIREMENT ANALYSIS")
+print("====================================")
+
+hardware = [
+    "Computer or Laptop",
+    "Internet Connection",
+    "Minimum 4GB RAM"
+]
+
+software = [
+    "Python",
+    "Java",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Flask",
+    "Google Gemini API"
+]
+
+print("\nHardware Requirements:")
+
+for item in hardware:
+    print("-", item)
+
+print("\nSoftware Requirements:")
+
+for item in software:
+    print("-", item)
+
+print("\nFunctional Requirements:")
+print("1. Students can ask questions.")
+print("2. Students can summarize notes.")
+print("3. Students can generate quizzes.")
+print("4. Students can create study plans.")
+
+print("\nRequirement Analysis Completed!")
