@@ -1,0 +1,18 @@
+print("====================================")
+print("       PROJECT PLANNING")
+print("====================================")
+
+schedule = {
+    "Week 1": "Ideation",
+    "Week 2": "Requirement Analysis",
+    "Week 3": "Project Design",
+    "Week 4": "Frontend Development",
+    "Week 5": "Backend Development",
+    "Week 6": "Testing and Documentation",
+    "Week 7": "Project Demonstration"
+}
+
+for week, task in schedule.items():
+    print(week, ":", task)
+
+print("\nProject Planning Completed!")
