@@ -1,0 +1,27 @@
+print("====================================")
+print("       EDUGENIE PROJECT")
+print("====================================")
+
+print("\nPhase 1: Ideation Phase")
+
+project_name = "EduGenie"
+description = "AI Powered Learning Companion"
+
+features = [
+    "AI Doubt Solver",
+    "Notes Summarizer",
+    "Quiz Generator",
+    "Flashcard Generator",
+    "Personalized Study Plan"
+]
+
+print("\nProject Name:", project_name)
+print("Description:", description)
+
+print("\nProject Features:")
+
+for feature in features:
+    print("-", feature)
+
+print("\nObjective:")
+print("To help students learn easily using AI.")
